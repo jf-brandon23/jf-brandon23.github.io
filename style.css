@@ -1,0 +1,131 @@
+html, body {
+    font-family: Arial;;
+    background-image: linear-gradient(to bottom,#000000,#000000,#000000,#060125,#140336,#FFFFFF,#FFFFFF,#CDB785, #d3b878, #CCB686);
+    background-repeat:repeat-y;
+    color:white;
+    padding: 20px;
+}
+
+
+.imgsize {
+    height: 90%;
+    width: 90%;
+}
+
+.imgsize2 {
+    height:40%;
+    width:40%;
+}
+
+  /*intro are different speeds*/
+.intro1 {
+    font-size: 3.25em;
+    text-align: center;
+    font-family: Arial;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+.intro2 {
+    font-size: 3.25em;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.name {
+    display:flex;
+    justify-content: center;
+    top:35%;
+    left:20%;
+    letter-spacing: 5px;
+    font-family: Arial;
+    background: linear-gradient(20deg,#4B494A,#858182,#FFFFFF,#512BAA,#D168FF,#512BAA,#FFFFFF,#858182,#4B494A); /*#C1B5A8*/ /**/
+    background-size:400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position:0%;
+    }
+    100%{
+        background-position:400%;
+    }
+}
+
+.intro3 {
+    font-size: 4.0em;
+    text-align: center;
+    font-family: Arial;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+ /* Section in charge of animation*/
+
+.text-box {
+    /*background: rgba(0, 0, 0, 50%);*/
+    text-align: center;
+    font-size: 150%;
+    opacity: 100%;
+    font-family: Arial;
+    padding-top: 8rem;
+}
+
+
+/*Improve contact me box*/
+.contactme-box {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 10%);
+    color: white;
+    font-family: Arial;
+    font-size: 210%;
+    opacity: 100%;
+    text-align: center;
+    vertical-align: auto;
+}
+
+
+
+@keyframes slidein {
+from {
+    margin-right: 100%;
+    width: 300%;
+    }
+  
+to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
+
+
+@keyframes leftslidein {
+    from {
+        margin-right: 100%;
+        width: 300%;
+        }
+      
+    to {
+        margin-left: 0%;
+        width: 100%;
+        }
+}    
+
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150x);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
