@@ -89,7 +89,6 @@ html, body {
 }
 
 
-
 .text-box2 {
     text-align: center;
     font-size: 130%;
@@ -99,6 +98,14 @@ html, body {
 
 }
 
+.text-box3 {
+    text-align: center;
+    font-size: 200%;
+    opacity: 100%;
+    font-family: Arial;
+    padding-top: 4rem;
+
+}
 
 #finalcontact {
     display: flex;
@@ -115,10 +122,10 @@ html, body {
     display: flex;
     justify-content: center;
     padding: 2rem;
-    font-size: 150%;
+    font-size: 180%;
     background: rgba(243, 38, 233, 0.425);
     border-radius: 1rem;
-    animation-duration: 3s;
+    width: auto;
 
 }
 
@@ -154,10 +161,8 @@ html, body {
     background: rgba(254, 131, 248, 0.075);
     color: white;
     font-family: Arial;
-    font-size: 210%;
-    opacity: 100%;
+    font-size: 200%;
     text-align: center;
-    vertical-align: auto;
     text-decoration:none;
 
 }
