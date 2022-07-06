@@ -184,6 +184,13 @@ html, body {
     text-decoration: none;
 }
 
+.navbar3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
 #resume {
     padding-top: 15rem;
 }
