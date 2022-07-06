@@ -8,14 +8,15 @@ html, body {
 }
 
 
+
 .imgsize {
-    height: 70%;
-    width: 70%;
+    height: 60%;
+    width: 60%;
 }
 
 .imgsize2 {
-    height:40%;
-    width:40%;
+    height:30%;
+    width:30%;
 }
 
 .imggroup {
@@ -82,14 +83,44 @@ html, body {
     padding-top: 18rem;
 }
 
+
+
+.text-box2 {
+    text-align: center;
+    font-size: 130%;
+    opacity: 100%;
+    font-family: Arial;
+    padding-top: 20rem;
+
+}
+
+
 #finalcontact {
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    padding: 2rem;
     font-size: 220%;
+    background: rgba(243, 38, 233, 0.425);
+    border-radius: 1rem;
     animation-duration: 3s;
 
 }
+
+#finalcontact2 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 150%;
+    background: rgba(243, 38, 233, 0.425);
+    border-radius: 1rem;
+    animation-duration: 3s;
+
+}
+
+.navbar {
+    font-size: 2rem;
+}
+
 
 #resume {
     padding-top: 15rem;
@@ -104,7 +135,7 @@ html, body {
 .contactme-box {
     display: flex;
     justify-content: center;
-    background: rgba(255, 255, 255, 5%);
+    background: rgba(254, 131, 248, 0.075);
     color: white;
     font-family: Arial;
     font-size: 210%;
@@ -112,7 +143,6 @@ html, body {
     text-align: center;
     vertical-align: auto;
     text-decoration:none;
-    
 
 }
 
